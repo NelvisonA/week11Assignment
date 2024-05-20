@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="container">
+    <div class="container d-flex">
+        <h1>Current Player:</h1>
+        <h2>⭕</h2>
+    </div>
+    <div id="game">
+        <div class="row border-bottom border-3 border-dark">
+            <div class="col" data-num="0"></div>
+            <div class="col border-start border-end border-3 border-dark" data-num="1"></div>
+            <div class="col" data-num="2"></div>
+
+
+        </div>
+        <div class="row border-bottom border-3 border-dark">
+            <div class="col" data-num="3"></div>
+            <div class="col border-start border-end border-3 border-dark" data-num="4"></div>
+            <div class="col" data-num="5"></div>
+        </div>
+        <div class="row">
+            <div class="col" data-num="6"></div>
+            <div class="col border-start border-end border-3 border-dark" data-num="7"></div>
+            <div class="col" data-num="8"></div>
+        </div>
+        
+    </div>
+
+    <button class ='reset button-warning' type="button">Reset</button>
+
+</div>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
